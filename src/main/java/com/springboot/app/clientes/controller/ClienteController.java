@@ -19,7 +19,7 @@ import com.springboot.app.clientes.entities.Cliente;
 import com.springboot.app.clientes.repository.ClienteRepository;
 
 @RestController
-@RequestMapping("/cliente/")
+@RequestMapping("cliente/")
 public class ClienteController 
 {
 	@Autowired
